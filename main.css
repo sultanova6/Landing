@@ -141,6 +141,7 @@ button {
     font-size: 18px;
     font-weight: 600;
     margin-top: 40px;
+    width: calc(100%);
 }
 
 select {
