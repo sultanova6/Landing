@@ -105,3 +105,75 @@ button {
     font-size: 18px;
     opacity: 0.65;
 }
+
+.form label {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.form input {
+    font-size: 18px;
+    color: #213053;
+    height: 60px;
+    padding: 0px 20px 0px 20px;
+    border-radius: 15px;
+    border: 0;
+}
+
+.form select {
+    font-size: 18px;
+    color: #213053;
+    height: 60px;
+    padding: 0px 20px 0px 20px;
+    border-radius: 15px;
+    border: 0;
+}
+
+.form__group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.form__submit {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+select {
+    appearance: none;
+}
+
+input {
+    outline: none;
+}
+
+footer {
+    margin: 90px 90px 20px 20px;
+    font-weight: 600;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: center;
+}
+
+.footer__copyright {
+    margin-top: 40px;
+    text-align: center;
+    opacity: 0.5;
+}
+
+.footer__group {
+    margin-right: 80px;
+
+}
+
+.footer__container h3 {
+    font-size: 16px;
+    opacity: 0.7;
+    margin-bottom: 30px;
+}
