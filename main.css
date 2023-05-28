@@ -192,6 +192,11 @@ footer {
     margin-bottom: 15px;
 }
 
+.features {
+    background-color: #fff;
+    padding: 115px 60px;
+}
+
 @keyframes rotation {
     0% {
         transform: rotate(0)
@@ -230,6 +235,9 @@ footer {
         width: 75px;
         height: 75px;
     }
+    .features {
+        padding: 50px 10px 50px 10px;
+    }
 }
 
 @media (min-width: 720px) and (max-width: 1024px) {
@@ -249,3 +257,4 @@ footer {
         height: 75px;
     }
 }
+
